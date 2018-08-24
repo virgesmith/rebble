@@ -1,0 +1,3 @@
+Displays time with a 12x14 Conway's Game of Life (B36/S23) in background. Initialised with 4 randomly placed gliders at startup, then every 100 generations another random glider is added to ensure some activity. Cells are colour-coded according to their longevity.
+
+The phone connection is monitored every 10 seconds. If connection is lost the time will display pink and the watch emits one short vibration. When connection is restored, the time will be displayed in white and the watch will emit two short vibrations.

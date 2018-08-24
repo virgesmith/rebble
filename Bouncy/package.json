@@ -1,0 +1,26 @@
+{
+  "name": "Bouncy",
+  "author": "virgesmith",
+  "version": "1.2.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "Bouncy",
+    "uuid": "b9722df4-656c-4cb8-9c81-e74ef3cd6928",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "basalt"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": []
+    }
+  }
+}

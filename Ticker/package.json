@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "author": "virgesmith",
+  "private": true,
+  "dependencies": {},
+  "keywords": [
+    "pebble-app"
+  ],
+  "pebble": {
+    "sdkVersion": "3",
+    "resources": {
+      "media": []
+    },
+    "projectType": "native",
+    "uuid": "ccd7c9f6-c273-4977-ad35-e130175e870f",
+    "messageKeys": {
+      "KEY_CONNECTION_STATUS": 0,
+      "KEY_CCY": 1,
+      "KEY_PRICE": 2
+    },
+    "enableMultiJS": false,
+    "displayName": "BTCker",
+    "watchapp": {
+      "onlyShownOnCommunication": false,
+      "hiddenApp": false,
+      "watchface": true
+    },
+    "targetPlatforms": [
+      "basalt"
+    ],
+    "capabilities": []
+  },
+  "name": "BTCker"
+}

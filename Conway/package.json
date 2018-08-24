@@ -1,0 +1,26 @@
+{
+  "name": "Conway",
+  "author": "virgesmith",
+  "version": "1.3.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "Conway",
+    "uuid": "5fdf8f98-f0e5-4922-aef4-6d04254879cb",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "basalt"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": []
+    }
+  }
+}
