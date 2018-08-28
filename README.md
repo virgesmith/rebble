@@ -1,11 +1,11 @@
 
 # Pebble to Rebble
 
-I got a new phone a week or two after Pebble servers were finally switched off and then discovered that the apps and watchfaces I wrote a couple of years ago just disappeared when I paired with the new phone. I couldn't find a way of getting them off the old phone and onto the new. Luckily, I'd published a couple of them ([Conway](http://store.rebble.io/app/5627c5b4c361c93abe000072) and [Bouncy](http://store.rebble.io/app/562a1e207480836070000059)) on the app store, and discovered [rebble](https://rebble.io/) had mirrored it. I also managed to track down a couple of them (built binaries) on an old laptop I'd used at the time. 
+I got a new phone a week or two after Pebble servers were finally switched off and then discovered that the apps and watchfaces I wrote a couple of years ago just disappeared when I paired my Pebble Time with the new phone. I couldn't find a way of getting them off the old phone and onto the new. Luckily, I'd published a couple of them ([Conway](https://apps.rebble.io/en_US/application/5627c5b4c361c93abe000072?query=conway&section=watchfaces) and [Bouncy](https://apps.rebble.io/en_US/application/562a1e207480836070000059?query=bouncy&section=watchfaces)) on the app store, and discovered [rebble](https://rebble.io/) had mirrored it and lots of other useful resources. I also managed to track down a couple of them (built binaries) on an old laptop I'd used at the time and installed them manually (by copying the .pbw file to the phone). 
 
-But mostly I just had the original source code, last built against a now-obsolete SDK. So I decided to see if I could get them working, and eventually, with the help of the resources the rebble community have kept alive, and their [discord channel](https://discordapp.com/channels/221364737269694464/221397928592277504), I got a the old apps and watchfaces up and running.
+But mostly I just had the original source code, last built against a now-obsolete SDK. So I decided to see if I could get them working again in the post-pebble/rebble era, and eventually, with some help from the resurrected [rebble resources](https://developer.rebble.io/developer.pebble.com/index.html), and their [discord channel](https://discordapp.com/channels/221364737269694464/221397928592277504), I got a the old apps and watchfaces up and running, see [below](#sdk-installation).
  
-I mostly use git and open-source my code on github these days, so I'll update some of my apps to work with the latest SDK and move them here... NB they are only tested with the Pebble Time (aka basalt) hardware.
+I've open-sourced a selection of my apps/watchfaces from my private svn repo. Feel free to (re)use the code as you wish (it's a MIT licence). NB they've only been tested with the Pebble Time (aka basalt) hardware.
 
 # Watchfaces
 
